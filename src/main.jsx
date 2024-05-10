@@ -1,0 +1,19 @@
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Registro from "./layouts/pages/Registro.jsx";
+
+let router = createBrowserRouter([
+    {
+        path: "/",
+        element: <App/>
+    },
+    {
+        path: "/registro",
+        element: <Registro/>
+    }
+
+])
+
+ReactDOM.createRoot(document.getElementById("root")).render(<RouterProvider router={router} />);

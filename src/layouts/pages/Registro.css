@@ -1,0 +1,87 @@
+.cardEvento{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #b3ebbb;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    height: 300px;
+}
+
+.elementosHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    height: 4em;
+}
+
+img{
+    height: 3em;
+    width: 4em;
+}
+
+.titleEvento{
+    justify-content: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    width: 37%;
+    margin-bottom: 44px;
+    margin-top: 45px;
+    border: 2px solid #b3ebbb;
+    display: flex;
+    border-radius: 15px;
+}
+
+.buttonRegistrar{
+    padding: 10px;
+    border: 1px solid #9a9797;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #cfe2df;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin: 0 3em;
+    justify-content: center;
+}
+
+.containerEvento{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloEvento{
+    background: #b3ebbb;
+    height: 35%;
+    border-radius: 0em 0em 12em 0em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.items{
+    display: flex;
+    margin: 0em 1em 1em 1em;
+}
+
+.itemsTwo{
+    display: flex;
+    justify-content: end;
+    margin-right: 1em;
+}
+
+.containerItems{
+    height: 90%;
+}

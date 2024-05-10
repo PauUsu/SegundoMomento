@@ -1,0 +1,3 @@
+const infor = [];
+
+export{infor}
